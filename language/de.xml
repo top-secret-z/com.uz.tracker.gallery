@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
+	<category name="wcf.uztracker">
+		<item name="wcf.uztracker.config.wlgalAlbum"><![CDATA[Alben]]></item>
+		<item name="wcf.uztracker.config.wlgalImage"><![CDATA[Album-Bilder]]></item>
+		<item name="wcf.uztracker.header.type.wlgal"><![CDATA[Galerie]]></item>
+		<item name="wcf.uztracker.type.wlgal"><![CDATA[Galerie]]></item>
+		
+		<item name="wcf.uztracker.description.album.add"><![CDATA[Album erstellt]]></item>
+		<item name="wcf.uztracker.description.album.delete"><![CDATA[Album endgültig gelöscht]]></item>
+		<item name="wcf.uztracker.description.album.setAsFeatured"><![CDATA[Album empfohlen]]></item>
+		<item name="wcf.uztracker.description.album.unsetAsFeatured"><![CDATA[Album nicht mehr empfohlen]]></item>
+		<item name="wcf.uztracker.description.album.update"><![CDATA[Album bearbeitet]]></item>
+		
+		<item name="wcf.uztracker.description.album.image.add"><![CDATA[Bild/Video erstellt]]></item>
+		<item name="wcf.uztracker.description.album.image.addDisabled"><![CDATA[Bild/Video erstellt (deaktiviert)]]></item>
+		<item name="wcf.uztracker.description.album.image.addDraft"><![CDATA[Bild/Video erstellt (Entwurf)]]></item>
+		<item name="wcf.uztracker.description.album.image.addLater"><![CDATA[Bild/Video erstellt (zukünftig)]]></item>
+		<item name="wcf.uztracker.description.album.image.delete"><![CDATA[Bild/Video endgültig gelöscht]]></item>
+		<item name="wcf.uztracker.description.album.image.disable"><![CDATA[Bild/Video deaktiviert]]></item>
+		<item name="wcf.uztracker.description.album.image.enable"><![CDATA[Bild/Video aktiviert]]></item>
+		<item name="wcf.uztracker.description.album.image.move"><![CDATA[Bild/Video in Album verschoben]]></item>
+		<item name="wcf.uztracker.description.album.image.restore"><![CDATA[Bild/Video wiederhergestellt]]></item>
+		<item name="wcf.uztracker.description.album.image.setAsFeatured"><![CDATA[Bild/Video empfohlen]]></item>
+		<item name="wcf.uztracker.description.album.image.trash"><![CDATA[Bild/Video gelöscht (Papierkorb)]]></item>
+		<item name="wcf.uztracker.description.album.image.unsetAsFeatured"><![CDATA[Bild/Video nicht mehr empfohlen]]></item>
+		<item name="wcf.uztracker.description.album.image.update"><![CDATA[Bild/Video bearbeitet]]></item>
+		<item name="wcf.uztracker.description.album.image.upload"><![CDATA[Bild/Video hochgeladen]]></item>
+		<item name="wcf.uztracker.description.album.image.upload.disabled"><![CDATA[Bild/Video nach Hochladen automatisch deaktiviert]]></item>
+		
+		<item name="wcf.uztracker.page.album"><![CDATA[Album]]></item>
+		<item name="wcf.uztracker.page.image"><![CDATA[Bild/Video]]></item>
+		<item name="wcf.uztracker.page.galleryFeed"><![CDATA[RSS Galerie]]></item>
+		<item name="wcf.uztracker.page.userAlbumList"><![CDATA[Benutzeralben]]></item>
+		<item name="wcf.uztracker.page.userImageList"><![CDATA[Benutzerbilder]]></item>
+		<item name="wcf.uztracker.page.userVideoList"><![CDATA[Benutzervideos]]></item>
+	</category>
+</language>
