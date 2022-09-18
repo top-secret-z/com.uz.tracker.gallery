@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
-	<import>
-		<eventlistener name="trackerAlbum">
-			<eventclassname>gallery\data\album\AlbumAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>user</environment>
-			<listenerclassname>gallery\system\event\listener\TrackerAlbumListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="trackerImage">
-			<eventclassname>gallery\data\image\ImageAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>user</environment>
-			<listenerclassname>gallery\system\event\listener\TrackerAlbumImageListener</listenerclassname>
-		</eventlistener>
-	</import>
+    <import>
+        <eventlistener name="trackerAlbum">
+            <eventclassname>gallery\data\album\AlbumAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>user</environment>
+            <listenerclassname>gallery\system\event\listener\TrackerAlbumListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="trackerImage">
+            <eventclassname>gallery\data\image\ImageAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>user</environment>
+            <listenerclassname>gallery\system\event\listener\TrackerAlbumImageListener</listenerclassname>
+        </eventlistener>
+    </import>
 </data>

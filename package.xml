@@ -1,50 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="com.uz.tracker.gallery" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/package.xsd">
-	<packageinformation>
-		<packagename>Tracker - Gallery Extension</packagename>
-		<packagedescription>Adds Gallery functions to Tracker.</packagedescription>
-		<packagename language="de">Tracker - Galerie-Erweiterung</packagename>
-		<packagedescription language="de">Ergänzt Tracker um Galerie-Funktionen.</packagedescription>
-		<version>5.5.1</version>
-		<date>2022-06-05</date>
-	</packageinformation>
-	
-	<authorinformation>
-		<author>Zaydowicz</author>
-	</authorinformation>
-	
-	<requiredpackages>
-		<requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="5.3.0">com.woltlab.gallery</requiredpackage>
-		<requiredpackage minversion="5.3.0">com.uz.tracker.wcf</requiredpackage>
-	</requiredpackages>
-	
-	<excludedpackages>
-		<excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
-	</excludedpackages>
-	
-	<instructions type="install">
-		<instruction type="file" application="gallery">files.tar</instruction>
-		<instruction type="language">language/*.xml</instruction>
-		<instruction type="eventListener">eventListener.xml</instruction>
-		<instruction type="sql">install.sql</instruction>
-		<instruction type="sql">update_page.sql</instruction>
-		<instruction type="templateListener">templateListener.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.3.0">
-		<instruction type="file" application="gallery">files.tar</instruction>
-		<instruction type="sql">update_page_550.sql</instruction>
-		<instruction type="language">language/*.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.4.0">
-		<instruction type="file" application="gallery">files.tar</instruction>
-		<instruction type="sql">update_page_550.sql</instruction>
-		<instruction type="language">language/*.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.5.0">
-		<instruction type="language">language/*.xml</instruction>
-	</instructions>
+<package name="de.softcreatr.tracker.gallery" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/package.xsd">
+    <packageinformation>
+        <packagename>Tracker - Gallery Extension</packagename>
+        <packagedescription>Adds Gallery functions to Tracker.</packagedescription>
+        <packagename language="de">Tracker - Galerie-Erweiterung</packagename>
+        <packagedescription language="de">Ergänzt Tracker um Galerie-Funktionen.</packagedescription>
+        <version>5.5.2</version>
+        <date>2022-09-18</date>
+    </packageinformation>
+
+    <authorinformation>
+        <author><![CDATA[SoftCreatR.dev]]></author>
+        <authorurl><![CDATA[https://softcreatr.dev]]></authorurl>
+    </authorinformation>
+
+    <requiredpackages>
+        <requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
+        <requiredpackage minversion="5.3.0">com.woltlab.gallery</requiredpackage>
+        <requiredpackage minversion="5.3.0">de.softcreatr.tracker.wcf</requiredpackage>
+    </requiredpackages>
+
+    <excludedpackages>
+        <excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+        <excludedpackage version="*">com.uz.tracker.gallery</excludedpackage>
+    </excludedpackages>
+
+    <instructions type="install">
+        <instruction type="file" application="gallery" />
+        <instruction type="language" />
+        <instruction type="eventListener" />
+        <instruction type="sql">install.sql</instruction>
+        <instruction type="sql">update_page.sql</instruction>
+        <instruction type="templateListener" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.3.0">
+        <instruction type="file" application="gallery" />
+        <instruction type="sql">update_page_550.sql</instruction>
+        <instruction type="language" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.4.0">
+        <instruction type="file" application="gallery" />
+        <instruction type="sql">update_page_550.sql</instruction>
+        <instruction type="language" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.5.0">
+        <instruction type="language" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.5.1">
+        <instruction type="file" application="gallery" />
+        <instruction type="language" />
+        <instruction type="eventListener" />
+        <instruction type="templateListener" />
+    </instructions>
 </package>
