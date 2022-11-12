@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
-	<category name="wcf.uztracker">
-		<item name="wcf.uztracker.config.wlgalAlbum"><![CDATA[Albums]]></item>
-		<item name="wcf.uztracker.config.wlgalImage"><![CDATA[Album images]]></item>
-		<item name="wcf.uztracker.header.type.wlgal"><![CDATA[Gallery]]></item>
-		<item name="wcf.uztracker.type.wlgal"><![CDATA[Gallery]]></item>
-		
-		<item name="wcf.uztracker.description.album.add"><![CDATA[Album created]]></item>
-		<item name="wcf.uztracker.description.album.delete"><![CDATA[Album permanently deleted]]></item>
-		<item name="wcf.uztracker.description.album.setAsFeatured"><![CDATA[Album set featured]]></item>
-		<item name="wcf.uztracker.description.album.unsetAsFeatured"><![CDATA[Album unset featured]]></item>
-		<item name="wcf.uztracker.description.album.update"><![CDATA[Album edited]]></item>
-		
-		<item name="wcf.uztracker.description.album.image.add"><![CDATA[Image/Video created]]></item>
-		<item name="wcf.uztracker.description.album.image.addDisabled"><![CDATA[Image/Video created (disabled)]]></item>
-		<item name="wcf.uztracker.description.album.image.addDraft"><![CDATA[Image/Video created (draft)]]></item>
-		<item name="wcf.uztracker.description.album.image.addLater"><![CDATA[Image/Video created (in future)]]></item>
-		<item name="wcf.uztracker.description.album.image.delete"><![CDATA[Image/Video permanently deleted]]></item>
-		<item name="wcf.uztracker.description.album.image.disable"><![CDATA[Image/Video disabled]]></item>
-		<item name="wcf.uztracker.description.album.image.enable"><![CDATA[Image/Video enabled]]></item>
-		<item name="wcf.uztracker.description.album.image.move"><![CDATA[Image/Video move to album]]></item>
-		<item name="wcf.uztracker.description.album.image.restore"><![CDATA[Image/Video restored]]></item>
-		<item name="wcf.uztracker.description.album.image.setAsFeatured"><![CDATA[Image/Video set featured]]></item>
-		<item name="wcf.uztracker.description.album.image.trash"><![CDATA[Image/Video deleted (trash bin)]]></item>
-		<item name="wcf.uztracker.description.album.image.unsetAsFeatured"><![CDATA[Image/Video unset featured]]></item>
-		<item name="wcf.uztracker.description.album.image.update"><![CDATA[Image/Video updated]]></item>
-		<item name="wcf.uztracker.description.album.image.upload"><![CDATA[Image/Video uploaded]]></item>
-		<item name="wcf.uztracker.description.album.image.upload.disabled"><![CDATA[Image/Video disabled automatically after upload]]></item>
-		
-		<item name="wcf.uztracker.page.album"><![CDATA[Album]]></item>
-		<item name="wcf.uztracker.page.image"><![CDATA[Image/Video]]></item>
-		<item name="wcf.uztracker.page.galleryFeed"><![CDATA[RSS Gallery]]></item>
-		<item name="wcf.uztracker.page.userAlbumList"><![CDATA[User albums]]></item>
-		<item name="wcf.uztracker.page.userImageList"><![CDATA[User images]]></item>
-		<item name="wcf.uztracker.page.userVideoList"><![CDATA[User videos]]></item>
-	</category>
+    <category name="wcf.uztracker">
+        <item name="wcf.uztracker.config.wlgalAlbum"><![CDATA[Albums]]></item>
+        <item name="wcf.uztracker.config.wlgalImage"><![CDATA[Album images]]></item>
+        <item name="wcf.uztracker.header.type.wlgal"><![CDATA[Gallery]]></item>
+        <item name="wcf.uztracker.type.wlgal"><![CDATA[Gallery]]></item>
+
+        <item name="wcf.uztracker.description.album.add"><![CDATA[Album created]]></item>
+        <item name="wcf.uztracker.description.album.delete"><![CDATA[Album permanently deleted]]></item>
+        <item name="wcf.uztracker.description.album.setAsFeatured"><![CDATA[Album set featured]]></item>
+        <item name="wcf.uztracker.description.album.unsetAsFeatured"><![CDATA[Album unset featured]]></item>
+        <item name="wcf.uztracker.description.album.update"><![CDATA[Album edited]]></item>
+
+        <item name="wcf.uztracker.description.album.image.add"><![CDATA[Image/Video created]]></item>
+        <item name="wcf.uztracker.description.album.image.addDisabled"><![CDATA[Image/Video created (disabled)]]></item>
+        <item name="wcf.uztracker.description.album.image.addDraft"><![CDATA[Image/Video created (draft)]]></item>
+        <item name="wcf.uztracker.description.album.image.addLater"><![CDATA[Image/Video created (in future)]]></item>
+        <item name="wcf.uztracker.description.album.image.delete"><![CDATA[Image/Video permanently deleted]]></item>
+        <item name="wcf.uztracker.description.album.image.disable"><![CDATA[Image/Video disabled]]></item>
+        <item name="wcf.uztracker.description.album.image.enable"><![CDATA[Image/Video enabled]]></item>
+        <item name="wcf.uztracker.description.album.image.move"><![CDATA[Image/Video move to album]]></item>
+        <item name="wcf.uztracker.description.album.image.restore"><![CDATA[Image/Video restored]]></item>
+        <item name="wcf.uztracker.description.album.image.setAsFeatured"><![CDATA[Image/Video set featured]]></item>
+        <item name="wcf.uztracker.description.album.image.trash"><![CDATA[Image/Video deleted (trash bin)]]></item>
+        <item name="wcf.uztracker.description.album.image.unsetAsFeatured"><![CDATA[Image/Video unset featured]]></item>
+        <item name="wcf.uztracker.description.album.image.update"><![CDATA[Image/Video updated]]></item>
+        <item name="wcf.uztracker.description.album.image.upload"><![CDATA[Image/Video uploaded]]></item>
+        <item name="wcf.uztracker.description.album.image.upload.disabled"><![CDATA[Image/Video disabled automatically after upload]]></item>
+
+        <item name="wcf.uztracker.page.album"><![CDATA[Album]]></item>
+        <item name="wcf.uztracker.page.image"><![CDATA[Image/Video]]></item>
+        <item name="wcf.uztracker.page.galleryFeed"><![CDATA[RSS Gallery]]></item>
+        <item name="wcf.uztracker.page.userAlbumList"><![CDATA[User albums]]></item>
+        <item name="wcf.uztracker.page.userImageList"><![CDATA[User images]]></item>
+        <item name="wcf.uztracker.page.userVideoList"><![CDATA[User videos]]></item>
+    </category>
 </language>
